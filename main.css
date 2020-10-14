@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  padding: 30px;
+  background: #ededed;
+}
+h1 {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 45px;
+}
+.wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.balloons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.balloon {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  justify-self: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.balloon:nth-child(3n) {
+  background: #ffce00;
+  color: #ffce00;
+}
+
+.balloon:nth-child(3n-1) {
+  background: #3f7abe;
+  color: #3f7abe;
+}
+.balloon:nth-child(3n-2) {
+  background: #00f735;
+  color: #00f735;
+}
+.balloon:nth-child(5n) {
+  background: #8e7a8e;
+  color: #8e7a8e;
+}
+
+.balloon:nth-child(7n - 2) {
+  background: #e214e2;
+  color: #e214e2;
+}
+
+.balloon:nth-child(5n + 4) {
+  background: #ff3300;
+  color: #ff3300;
+}
+
+.balloon.popped {
+  background-color: #ededed;
+  font-size: 30px;
+}
+
+.congratsMessage {
+  color: red;
+  font-size: 100px;
+}
