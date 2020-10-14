@@ -61,6 +61,8 @@ h1 {
 }
 
 .congratsMessage {
-  color: red;
-  font-size: 100px;
+  display: grid;
+  grid-column: 2 / 4;
+  color: rgb(255, 186, 38);
+  font-size: 80px;
 }

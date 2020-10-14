@@ -27,7 +27,7 @@ document.addEventListener("mouseover", (event) => {
       const balloons = document.querySelector(".balloons");
       balloons.innerHTML = "";
       const h1 = document.createElement("h1");
-      h1.textContent = "Yay! You won!";
+      h1.textContent = "Congrats You won!";
       h1.classList.add("congratsMessage");
       balloons.appendChild(h1);
     }
