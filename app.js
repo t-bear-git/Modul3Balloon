@@ -28,7 +28,7 @@ document.addEventListener("mouseover", (event) => {
     // Variables for counting elements with specified classes.
     const poppedCount = document.querySelectorAll(".balloon.popped").length;
     const balloonCount = document.querySelectorAll(".balloon").length;
-    // if statement to show Congrats Message when all balloons is popped.
+    // if statement to check if all balloons is popped then show Congrats Message.
     if (poppedCount === balloonCount) {
       console.log("All popped!");
       const balloons = document.querySelector(".balloons");
